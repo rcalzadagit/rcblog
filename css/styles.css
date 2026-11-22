@@ -1,0 +1,568 @@
+html {
+  scroll-behavior: smooth;
+   transition: ease 0.8s all;
+}
+
+body {
+
+  font-family: "Montserrat";
+    text-align: center;
+}
+
+h2, h3, h4, h5, h6 {
+  font-family: "Monstserrat-Bold";
+
+}
+
+h4 {
+  text-align: left;
+  color: #ffffff;
+}
+
+p {
+  color: #868383;
+  font-size: 18px;
+}
+
+.card-body-text {
+  color: #4e4d4d;
+  font-size: 20px;
+
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  font-weight: normal;
+  color: #ffffff;
+}
+
+.raul2 {
+color: #ffffff;
+}
+
+.spsa{
+  width: 90%;
+  height: auto;
+  border-radius: 10px;
+}
+
+
+.myserv {
+  text-align: left;
+  padding-top: 30px;
+  padding-left: 30px;
+  padding-bottom: 30px;
+  padding-right: 30px;
+  border-radius: 10px;
+  margin-bottom: 50px;
+  background-color: rgba(64, 66, 66, 0.466);
+  -webkit-background-composite: rgba(8, 84, 94, 0.315);
+}
+
+.service {
+  color: #ffffff;
+  font-size: 20px;
+  text-align: left;
+  padding-left: 30px;
+  padding-bottom: 25px;
+}
+
+/* Hedings was on the h1*/
+/* .big-heading {
+  font-family: "Montserrat-Black";
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+} */
+
+
+.my-menu {
+  background-color: #282c2c;
+  color: #ffffff;
+  font-family: "Montserrat-Light";
+  font-size: 1.5rem;
+}
+
+.bg-body-tertiary {
+    --bs-bg-opacity: 0;
+    background-color: rgba(var(--bs-tertiary-bg-rgb),var(--bs-bg-opacity))!important;
+}
+
+
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+/* Added by me 11-26-2020 */
+  margin-top: 25px;
+  padding-top: 15px;
+}
+
+.section-heading2 {
+  font-size: 3rem;
+  line-height: 1.5;
+/* Added by me 11-26-2020 */
+  margin-top: 25px;
+  padding-top: 5px 10px 15px 10px;
+  color: #ffffff;
+  border: 2px solid #f8f5f5;
+  border-radius: 10px;
+}
+
+
+.container-fluid {
+  padding: 2% 10%;
+}
+
+.page-item{
+  padding-bottom: 100px;
+}
+
+/* CTA Section */
+#cta {
+  background-color: #00bcd4;
+  color: #fff;
+padding-top: 50px;
+padding-bottom: 50px;
+
+}
+.cta-link:hover {
+  text-decoration: underline;
+
+  text-decoration-color: #ff5722;
+}
+
+#footer {
+  background-color: #a9dbf5;
+  font-size: 3rem;
+  color: #1a1919;
+  padding: 10px 0;
+}
+
+/* Simplyfied with big heading class */
+/* .cta-heading {
+  font-family: "Montseratt-Black";
+  font-size: 3.5rem;
+  line-height: 1.5;
+} */
+
+.social-icons {
+margin: 20px 10px;
+}
+
+#footer form {
+  max-width: 520px;
+  margin: 0 auto 30px;
+  text-align: left;
+}
+
+.form-trap {
+  position: absolute;
+  left: -10000px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+#footer form label {
+  display: block;
+  margin: 12px 0 4px;
+}
+
+#footer form input,
+#footer form select,
+#footer form button {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+#footer form input,
+#footer form select {
+  min-height: 40px;
+  padding: 8px;
+}
+
+#footer form button {
+  margin-top: 18px;
+}
+
+
+/* Original @media styles for responsiveness is at 1028px */
+/* CCS for screens below or equal to 1028px wide */
+/* @media (max-width: 1028px) {} */
+
+/* CCS for screens below or equal to 600px wide */
+@media (max-width: 600px) {
+
+  .nav-menu {
+    display: none; /* Hide standard navigation for a hamburger menu */
+  }
+
+}
+
+@media (max-width: 767px) {
+  #services {
+    background-attachment: scroll;
+  }
+}
+
+/* Target devices smaller than 767px wide */
+@media (width < 767px) {
+  /* Mobile styles */
+
+  .container {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .nav-menu {
+    display: none; /* Hide standard navigation for a hamburger menu */
+  }
+
+
+}
+
+/* Mobile Responsiveness */
+/* CCS for screens below or equal to 480px wide */
+@media (max-width: 480px) {
+
+  .container {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .nav-menu {
+    display: none; /* Hide standard navigation for a hamburger menu */
+  }
+
+
+  h1 {
+    font-size: 3.5rem;
+  } 
+
+  
+ p {
+    font-size: 0.875rem;
+  }
+
+ .testimonial-image {
+    width: 30%;
+  }
+
+  .code-image {
+  width: 20%;
+
+}
+
+}
+
+
+
+
+  /* Title section */
+
+#title2 {
+  background-image: url("../images/Office-Bg.jpg");
+  height: 800px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative; 
+}
+
+
+/* Added by me 10-24-2026 */
+
+.hero {
+  position: relative;
+  isolation: isolate;
+  background: url("../images/scenic-mountain-2.jpg") center / cover no-repeat;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background: url("../images/Office-Bg.jpg") center / cover no-repeat;
+  opacity: 0;
+  transition: opacity 1.5s ease;
+}
+
+.hero.show-second::before {
+  opacity: 1;
+}
+
+#services {
+  background-image: url("../images/scenic-mountain-2.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+/* Original */
+
+ /* background-color: #00bcd4;
+  background-color: #081d5e;
+  color: #fff;
+  text-align: left;
+*/
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+
+.press-image:hover {
+  transition: 1s ease-out;
+transform: scale(2.5, 2.5);
+
+}
+
+/* Download Buttons */
+.download-button {
+  margin: 10% 3% 5% 0;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.code-image {
+  width: 10%;
+  padding-right: 10px;
+  position: relative;
+  z-index: 5;
+
+}
+
+.fsm-border {
+  border: 2px solid #131212;
+  border-radius: 5px;
+
+}
+
+/* Title Image */
+.title-image {
+  border-radius: 5%;
+  width: 55%;
+  border-style: double;
+  /* transform: rotate(0deg); */
+  position: relative;
+  /* Because position: is absolute I can move to the right by % */
+  /* right: 45%; */
+}
+/*
+.title-image:hover {
+  transform: scale3d(1.1, 1.1, 1 );
+  transition: all 1s ease-out;
+  border-radius: 10px;
+}
+*/
+
+/* Sliding image css and javascript */
+#sliding-image {
+  /* Starting state: hidden off-screen to the left and fully transparent */
+  transform: translateX(-100px);
+  opacity: 0;
+  
+  /* Smooth transition for position and opacity over 0.8 seconds */
+  transition: transform 0.8s ease-out, opacity 0.8s ease-out;
+}
+
+/* This class will be added by JavaScript to trigger the slide */
+#sliding-image.slide-in {
+  /* Final state: normal position and fully visible */
+  transform: translateX(0);
+  opacity: 1;
+}
+
+/* Sliding headings css and javascript */
+#main-heading, #sub-heading {
+  transform: translateX(-100px);
+  opacity: 0;
+  color: #fff;
+  transition: transform 0.8s ease-out, opacity 0.8s ease-out;
+}
+
+#main-heading.slide-in, #sub-heading.slide-in {
+  transform: translateX(0);
+  opacity: 1;
+  color: #fff;
+}
+
+
+
+/* Navigation Bar */
+.navbar {
+  padding: 0 0 4.5rem;
+
+}
+
+.navbar-toggler{
+  border-color: #3de909;
+  border-width: 5px;
+}
+
+
+.navbar-nav{
+  padding-left: 20px;
+  padding-right: 10px;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #fff;
+ margin-right: 144px;
+}
+.navbar-brand:focus, .navbar-brand:hover {
+  color: #fff;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.5rem;
+ color: rgb(255, 255, 255);
+  font-family: "Montseratt-Light";
+}
+.nav-link:hover {
+  text-decoration: underline;
+  text-decoration-color: #ff5722
+}
+
+.back-to-top {
+  position: fixed;
+  right: 24px;
+  bottom: 24px;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background-color: #ff5722;
+  color: #fff;
+  font-size: 1.25rem;
+  text-decoration: none;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+.back-to-top:hover,
+.back-to-top:focus {
+  background-color: #3a3636;
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Features */
+#features {
+  background-color: #b2ebf2;
+  position: relative;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #3a3636;
+  padding-bottom: 15px;
+}
+
+.feature-box {
+  padding: 2%;
+}
+
+.featured-text {
+  font-size: 1.5rem;
+  color: #ff5722;
+  text-align: center;
+}
+
+.section-heading p {
+  padding: 2% 0;
+  font-size: 1.5rem;
+  text-align: left;
+}
+
+.icon {
+  color: #00bcd4;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff5722;
+}
+
+/* Testimonial Section */
+#testimonials {
+
+  background-color: #00bcd4;
+  color: #fff;
+
+}
+
+.testimonial-image {
+  width: 15%;
+  border-radius: 10px;
+  border-style: double;
+  margin: 20px;
+}
+
+#press {
+  background-color: #00bcd4;
+ padding-bottom: 4%;
+
+}
+
+.press-image {
+  width: 10%;
+  margin: 20px 20px 50px;
+
+}
+
+/* Pricing section */
+#pricing {
+  padding: 100px;
+
+}
+
+.price-text {
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.row {
+  justify-content: center;
+}
+
+
+
+/* .portfolio-img{
+  width:
+} */
+/* .container{
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: center;
+
+}
+
+.box{
+  width: 250px;
+  height: 250px;
+  padding: 15%
+
+} */
